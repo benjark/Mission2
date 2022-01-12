@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{5675AA31-1D64-4956-9CD5-33B1FEB96DD0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyFirstASPNETWebApp/wwwroot/css/default.css">
+    <Files>
+      <File FileName="MyFirstASPNETWebApp/Program.cs" Line="14" Column="51" />
+      <File FileName="MyFirstASPNETWebApp/Startup.cs" Line="1" Column="1" />
+      <File FileName="MyFirstASPNETWebApp/wwwroot/js/gradeCalc.js" Line="5" Column="19" />
+      <File FileName="MyFirstASPNETWebApp/wwwroot/index.html" Line="10" Column="21" />
+      <File FileName="MyFirstASPNETWebApp/wwwroot/css/default.css" Line="2" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyFirstASPNETWebApp" expanded="True">
+            <Node name="MyFirstASPNETWebApp" expanded="True">
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True">
+                  <Node name="default.css" selected="True" />
+                </Node>
+                <Node name="lib" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MyFirstASPNETWebApp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
