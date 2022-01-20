@@ -10,8 +10,31 @@ $("#BtnSend").click(function () {
     var GP = parseInt($("#GP").val(), 10);
     var AS = parseInt($("#AS").val(), 10);
 
-    //Calculating the final grade and letter grade.
+    // Validation of entry
 
+    //if (QZ > 100 | QZ < 0) {
+    //    alert("Please enter a value between 0 and 100 for Quizzes");
+        
+    //}
+    //if (EX > 100 | EX < 0) {
+    //    alert("Please enter a value between 0 and 100 for Exams");
+        
+    //}
+    //if (IN > 100 | IN < 0) {
+    //    alert("Please enter a value between 0 and 100 for INTEX");
+        
+    //}
+    //if (GP > 100 | GP < 0) {
+    //    alert("Please enter a value between 0 and 100 for Group Projects");
+        
+    //}
+    //if (AS > 100 | AS < 0) {
+    //    alert("Please enter a value between 0 and 100 for Assignments");
+        
+    //}
+
+    //Calculating the final grade and letter grade.
+   
     finalGrade = ((QZ * .10)
         + (EX * .20)
         + (IN * .10)
@@ -43,12 +66,12 @@ $("#BtnSend").click(function () {
     else
         letterGrade = "F";
 
-//Displaying alert with the final grade.
+    //Displaying alert with the final grade.
 
-    alert("Your final grade is " + finalGrade + "%." + " This means your letter grade is a(n) " + letterGrade + "." );
+    alert("Your final grade is " + finalGrade + "%." + " This means your letter grade is a(n) " + letterGrade + ".");
 
 
-//Animation which removes the picture upon the pressing of the button. 
+    //Animation which removes the picture upon the pressing of the button. 
 
     $("#picme").fadeOut("slow");
 

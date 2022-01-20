@@ -1,0 +1,33 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "GPA Calculator";
+}
+
+@model MyFirstASPNETWebApp.Models.GradeCalcModel
+
+<!--The grade calculator form.-->
+<br />
+<h2>Grade Calculator</h2>
+<br />
+<form method="post">
+    <label>Assignment Percentage</label>
+    <input id="AS" asp-for="Assignments"/><br />
+    <label>Group Project Percentage</label>
+    <input id="GP" asp-for="GroupProjects" /><br />
+    <label>Quizzes Percentage</label>
+    <input id="QZ" asp-for="Quizzes"/><br />
+    <label>Exams Percentage</label>
+    <input id="EX" asp-for="Exams"/><br />
+    <label>INTEX Percentage</label>
+    <input id="IN" asp-for="Intex"/><br />
+    <input id="BtnSend" type="submit" value="Calculate Grade" />
+    <br />
+    <div asp-validation-summary="All"></div>
+</form>
+<br />
+
+<!--Scripts for bootstrap and for the calculator.-->
+
+<script src="~/js/gradeCalc.js"></script>

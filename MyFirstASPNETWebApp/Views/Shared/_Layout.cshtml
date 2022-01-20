@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+@*This is the shared page for page elements that we want to share across all views.*@
+<html>
+<head>
+    <!--Head, with bootstrap link, favicon for the tab icon, and css link.-->
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/default.css" rel="stylesheet" />
+    <link rel="icon" href="~/img/icon.png">
+</head>
+<header>
+    <br />
+    <nav>
+        <a asp-controller="pages" asp-action="Index">Home</a>
+        <a asp-controller="pages" asp-action="GPACalculator">GPA Calculator</a>
+    </nav>
+    <br />
+</header>
+<body>
+
+
+    <div>
+        @RenderBody()
+    </div>
+
+
+
+</body>
+</html>
+
+<!--Footer with my name and copyright.-->
+<footer>
+    <br />
+    Copyright 2022, Benjamin Kloepfer
+
+</footer>
+<script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="~/lib/jquery/jquery-3.6.0.min.js"></script>
+<script src="~/js/gradeCalc.js"></script>
